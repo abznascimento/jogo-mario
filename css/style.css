@@ -7,17 +7,33 @@
 .game-board {
     width: 80%;
     height: 500px;
-    border: 1px solid blackss;
-    margin: 0 auto;
+    border: 1px solid black;
+    margin: auto ;
     position: relative;
     overflow: hidden;
 }
 
-.cogumelo2 {
+.pipe {
     position: absolute;
     bottom: 0;
     width: 80px;
-    right: 0;
+    animation: pipe-animation 2s linear infinite
+}
+
+.mario {
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+
+}
+
+@keyframes pipe-animation {
+    from {
+        right: -80px;
+    }
+    to {
+        right: 100%;
+    }
 }
 
 
