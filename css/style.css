@@ -8,12 +8,20 @@
     width: 80%;
     height: 500px;
     border: 1px solid black;
+<<<<<<< Updated upstream
     margin: auto ;
+=======
+    margin: 0 auto;
+>>>>>>> Stashed changes
     position: relative;
     overflow: hidden;
 }
 
+<<<<<<< Updated upstream
 .pipe {
+=======
+.cogumelo {
+>>>>>>> Stashed changes
     position: absolute;
     bottom: 0;
     width: 80px;
@@ -35,5 +43,6 @@
         right: 100%;
     }
 }
+
 
 
