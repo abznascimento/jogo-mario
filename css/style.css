@@ -1,0 +1,23 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.game-board {
+    width: 80%;
+    height: 500px;
+    border: 1px solid blackss;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.cogumelo2 {
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    right: 0;
+}
+
+
