@@ -8,32 +8,31 @@
     width: 80%;
     height: 500px;
     border: 1px solid black;
-<<<<<<< Updated upstream
     margin: auto ;
-=======
     margin: 0 auto;
->>>>>>> Stashed changes
     position: relative;
     overflow: hidden;
 }
 
-<<<<<<< Updated upstream
 .pipe {
-=======
-.cogumelo {
->>>>>>> Stashed changes
     position: absolute;
     bottom: 0;
     width: 80px;
-    animation: pipe-animation 2s linear infinite
+    left: 120px;
+    animation: pipe-animation 2s linear 
 }
 
 .mario {
-    width: 150px;
+    width: 130px;
     position: absolute;
     bottom: 0;
+}
+
+.jump {
+    animation: jump 200ms ease-out;
 
 }
+
 
 @keyframes pipe-animation {
     from {
@@ -41,6 +40,29 @@
     }
     to {
         right: 100%;
+    }
+}
+
+@keyframes jump {
+    
+    0% {
+        bottom: 0;
+    }
+
+    40% {
+        bottom: 150px;
+    }
+
+    50% {
+        bottom: 150%;
+    }
+
+    60% {
+        bottom: 150%;
+    }
+
+    100% {
+        bottom: 0;
     }
 }
 
